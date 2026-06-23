@@ -24,10 +24,10 @@ import { execSync, execFileSync } from "node:child_process";
 import { OverlayFrame } from "../shared/overlay.js";
 import { THINKING_ROLES } from "../shared/thinking-colors.js";
 
-import { normalize } from "@sting8k/pi-vcc/src/core/normalize";
-import { filterNoise } from "@sting8k/pi-vcc/src/core/filter-noise";
-import { buildSections } from "@sting8k/pi-vcc/src/core/build-sections";
-import { redact } from "@sting8k/pi-vcc/src/core/redact";
+import { normalize } from "@adamjen/pi-vcc/src/core/normalize";
+import { filterNoise } from "@adamjen/pi-vcc/src/core/filter-noise";
+import { buildSections } from "@adamjen/pi-vcc/src/core/build-sections";
+import { redact } from "../shared/redact";
 import { TaskStore } from "@tintinweb/pi-tasks/src/task-store.js";
 
 function shellQuote(value: string): string {
